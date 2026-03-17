@@ -4,6 +4,7 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Cocktails from './components/Cocktails';
+import About from './components/About';
 
 // register plugins within app
 // these plugins are not automatically active and this line makes these plugins
@@ -15,7 +16,8 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <Cocktails/>
+      <Cocktails />
+      <About/>
     </main>
   )
 }
