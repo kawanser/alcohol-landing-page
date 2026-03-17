@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Cocktails from './components/Cocktails';
 import About from './components/About';
+import Art from './components/Art';
 
 // register plugins within app
 // these plugins are not automatically active and this line makes these plugins
@@ -17,7 +18,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Cocktails />
-      <About/>
+      <About />
+      <Art/>
     </main>
   )
 }
